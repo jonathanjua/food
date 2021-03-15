@@ -27,4 +27,10 @@ class PlanController extends Controller
         ]);
 
     }
+
+
+    public function create(){
+
+        return view('admin.pages.plans.create');
+    }
 }

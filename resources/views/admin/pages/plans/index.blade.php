@@ -3,14 +3,14 @@
 @section('title', 'Planos')
 
 @section('content_header')
-    <h1>Planos</h1>
+    <h1>Planos</h1> <a href="{{ route('plans.create') }}" class="btn btn-dark">ADD</a>
 @stop
 
 @section('content')
 
     <div class="card">
-        <div class="header">
-            header
+        <div class="card-header">
+            #Filtros
         </div>
         <div class="body">
             <table class="table  table-condensed">
